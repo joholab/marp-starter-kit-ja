@@ -1,0 +1,51 @@
+# marp-starter-kit-ja
+
+## 実行環境
+
+- Windows 10
+- VSCode
+
+## フォルダ構成
+
+```
+marp-starter-kit-ja/
+    ├ images/
+    │   ├ 画像ファイル
+    │   └ ・・・    
+    ├ themes/
+    │   └ mydefault.css（カスタムテーマ）
+    ├ README.md（本ファイル）
+    └ slides.md（スライド本体）
+```
+
+## カスタムテーマの特徴
+
+- 筑波大のロゴ
+- `Default`テーマ + `gaia`フォントサイズ
+- デフォルト（スライドクラスなし）：左上寄せ
+- `lead`：中央中寄せ
+
+## カスタムテーマの設定
+
+- `slides.md`を開く
+- `Ctrl+,`で設定画面を表示
+- 「設定の検索」に`marp`と入力
+    - `Markdown › Marp: Themes`の「項目の追加」を選択
+    - `themes\mydefault.css`と入力 → 「OK」
+
+## フッターの削除（スライド単体）
+
+```
+---
+<!-- _footer: '' -->
+```
+
+## PDFエクスポートの不具合
+
+- もしエクスポートしたPDFがVSCode内のプレビューと異なっていたら、Markdownファイルのエンコーディングを確認しましょう
+    - "UTF-8 with BOM" を "UTF-8" で保存し直すと不具合が解消されます
+
+## その他の情報
+
+- https://marp.app/
+- https://marketplace.visualstudio.com/items?itemName=marp-team.marp-vscode

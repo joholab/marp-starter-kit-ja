@@ -1,0 +1,54 @@
+/* @theme mydefault */
+
+@import 'default';
+
+section {
+    font-size: 30px;
+    justify-content: start;
+}
+
+section.lead {
+    text-align: center;
+    justify-content: center;
+}
+
+section::after {
+    font-size: 100%;
+    font-weight: 600;
+}
+
+h1 {
+    font-size: 1.8em;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+h3 {
+  font-size: 1.3em;
+}
+
+h4 {
+  font-size: 1.1em;
+}
+
+h5 {
+  font-size: 1em;
+}
+
+h6 {
+  font-size: 0.9em;
+}
+
+li {
+  margin-block: .5em;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+}
