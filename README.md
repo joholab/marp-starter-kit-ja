@@ -40,6 +40,23 @@ marp-starter-kit-ja/
 <!-- _footer: '' -->
 ```
 
+## ２コラムレイアウト
+
+```
+<div class="row">
+<div class="column">
+
+左コラムコンテンツ
+
+</div>
+<div class="column">
+
+右コラムコンテンツ
+
+</div>
+</div>
+```
+
 ## PDFエクスポートの不具合
 
 - もしエクスポートしたPDFがVSCode内のプレビューと異なっていたら、Markdownファイルのエンコーディングを確認しましょう
