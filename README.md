@@ -32,6 +32,7 @@ marp-starter-kit-ja/
 - 「設定の検索」に`marp`と入力
     - `Markdown › Marp: Themes`の「項目の追加」を選択
     - `themes\mydefault.css`と入力 → 「OK」
+    -  `Markdown › Marp: Enable HTML`にチェックを入れる
 
 ## フッターの削除（スライド単体）
 
