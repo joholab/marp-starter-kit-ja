@@ -41,6 +41,11 @@ h6 {
   font-size: 0.9em;
 }
 
+table {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 li {
   margin-block: .5em;
 }
