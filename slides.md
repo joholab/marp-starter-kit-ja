@@ -7,6 +7,7 @@ footer: プレゼンテーションのタイトル | 氏名 | 発表年月日
 
 ---
 <!-- _class: lead invert -->
+<!-- _footer: '' -->
 
 ### 発表会名
 
@@ -18,8 +19,6 @@ footer: プレゼンテーションのタイトル | 氏名 | 発表年月日
 #### ![h:70](https://www.tsukuba.ac.jp/assets/img/common/logo-w.svg)
 
 ---
-![bg left:33%](https://picsum.photos/720?image=1035)
-
 # :label: スライドのタイトル
 
 - アイテム
@@ -28,6 +27,25 @@ footer: プレゼンテーションのタイトル | 氏名 | 発表年月日
     - アイテム
 - アイテム
 - アイテム
+
+---
+![bg left:33%](https://picsum.photos/720?image=1035)
+
+# :label: 背景画像の挿入
+
+- アイテム
+    - アイテム
+    - これは改行の見た目を確認するための長めの文です。
+    - アイテム
+- アイテム
+- アイテム
+
+---
+# :label: 表
+
+|列名|列名|列名|
+|:--|:--:|--:|
+|左寄せ|中央寄せ|右寄せ|
 
 ---
 ![bg right:33%](https://picsum.photos/720?image=755)
