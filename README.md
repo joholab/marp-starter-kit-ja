@@ -30,9 +30,22 @@ marp-starter-kit-ja/
 - `slides.md`を開く
 - `Ctrl+,`で設定画面を表示
 - 「設定の検索」に`marp`と入力
+    -  `Markdown › Marp: Enable HTML`にチェックを入れる
     - `Markdown › Marp: Themes`の「項目の追加」を選択
     - `themes\mydefault.css`と入力 → 「OK」
-    -  `Markdown › Marp: Enable HTML`にチェックを入れる
+
+## スライドの出力
+
+- `slides.md`を開く
+- パネル上部右端にあるMarpアイコンをクリック
+- `Export Slide Deck...`を選択 → 保存先の選択
+- `slides.pdf`の生成を確認
+
+## 出力形式の変更
+
+- `Ctrl+,`で設定画面を表示
+- 「設定の検索」に`marp`と入力
+    - `Markdown › Marp: Export Type`から「PDF」や「pptx」を選択
 
 ## フッターの削除（スライド単体）
 
