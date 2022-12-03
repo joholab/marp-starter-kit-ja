@@ -29,7 +29,7 @@ marp-starter-kit-ja/
 
 ## カスタムテーマの設定
 
-- `slides.md`を開く
+- VSCodeでダウンロードしたフォルダを開く
 - `Ctrl+,`で設定画面を表示
 - 「設定の検索」に`marp`と入力
     -  `Markdown › Marp: Enable HTML`にチェックを入れる
