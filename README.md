@@ -1,8 +1,10 @@
 # marp-starter-kit-ja
 
+[Marp](https://marp.app/)は[Markdown](https://www.markdown.jp/syntax/)という記法でプレゼンテーションスライドを作成できるツールです。
+
 ## 実行環境
 
-- Windows 10
+- Windows 10/11
 - VSCode
 
 ## フォルダ構成
@@ -71,6 +73,16 @@ marp-starter-kit-ja/
 </div>
 ```
 
+## 画像の挿入
+
+- 画像ファイルは`images`フォルダに保存しておく
+- 画像のサイズは`[w:32, h32]`等で設定する
+
+```
+![w:32](./images/画像ファイル名)
+```
+
+
 ## PDFエクスポートの不具合
 
 - もしエクスポートしたPDFがVSCode内のプレビューと異なっていたら、Markdownファイルのエンコーディングを確認しましょう
@@ -78,5 +90,5 @@ marp-starter-kit-ja/
 
 ## その他の情報
 
-- https://marp.app/
+- https://marpit.marp.app/markdown
 - https://marketplace.visualstudio.com/items?itemName=marp-team.marp-vscode
