@@ -57,7 +57,9 @@ marp-starter-kit-ja/
 ```
 
 ## ２コラムレイアウト
-
+- 以下は、左コラムを左寄せ、右コラムを中央寄せに設定している
+  - 画像の配置など
+  - 両方とも左寄せにしたい場合は、`style="text-align:center"`を削除
 ```
 <div class="row">
 <div class="column">
@@ -65,7 +67,7 @@ marp-starter-kit-ja/
 左コラムコンテンツ
 
 </div>
-<div class="column">
+<div class="column" style="text-align:center">
 
 右コラムコンテンツ
 
