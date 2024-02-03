@@ -3,7 +3,6 @@ marp: true
 theme: mydefault
 paginate: true
 size: 16:9
-footer: プレゼンテーションのタイトル | 氏名 | 発表年月日
 
 ---
 <!-- _class: lead invert -->
