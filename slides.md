@@ -7,7 +7,7 @@ footer: プレゼンテーションのタイトル | 氏名 | 発表年月日
 
 ---
 <!-- _class: lead invert -->
-<!-- _footer: '' -->
+<!-- _paginate: false -->
 
 ### 発表会名
 
