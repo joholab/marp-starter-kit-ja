@@ -34,7 +34,7 @@ marp-starter-kit-ja/
 - 「設定の検索」に`marp`と入力
     -  `Markdown › Marp: Enable HTML`にチェックを入れる
     - `Markdown › Marp: Themes`の「項目の追加」を選択
-    - `themes\mydefault.css`と入力 → 「OK」
+        - `.\themes\mydefault.css`と入力 → 「OK」
 
 ## スライドの出力
 
